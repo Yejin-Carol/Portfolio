@@ -17,7 +17,7 @@ public class Item {
 
     @Id
     @Column(name="item_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//.AUTO: Default, .IDENTITY: MySQL
     private Long id; //item code
 
     @Column(nullable = false, length = 50)
