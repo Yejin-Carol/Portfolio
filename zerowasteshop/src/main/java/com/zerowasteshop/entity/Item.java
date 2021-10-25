@@ -1,6 +1,7 @@
 package com.zerowasteshop.entity;
 
 import com.zerowasteshop.constant.ItemSellStatus;
+import com.zerowasteshop.dto.ItemFormDto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -37,8 +38,12 @@ public class Item extends BaseEntity {
     @Enumerated(EnumType.STRING)//constant
     private ItemSellStatus itemSellStatus; //상품 재고현황(판매 상태)
 
-//    private LocalDateTime regTime; //Time of item registration, BaseEntity 상속 - 삭제
-//
-//    private LocalDateTime updateTime; //Time of item update
+    public void updateItem(ItemFormDto itemFormDto){
+        this.itemName = itemFormDto.getItemName();
+        this.price = itemFormDto.getPrice();
+        this.stockNumber = itemFormDto.getStockNumber();
+        this.itemDetail = itemFormDto.getItemDetail();
+        this.itemSellStatus = itemFormDto.getItemSellStatus();
+    }
 
 }

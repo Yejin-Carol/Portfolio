@@ -10,7 +10,7 @@ import java.util.List;
 
 //JpaRepository<entity type class, PK type> 상속받음.
 public interface ItemRepository extends JpaRepository<Item, Long>,
-        QuerydslPredicateExecutor<Item> {
+        QuerydslPredicateExecutor<Item>, ItemRepositoryCustom {
 
     List<Item> findByItemName(String itemName);
 
@@ -24,16 +24,14 @@ public interface ItemRepository extends JpaRepository<Item, Long>,
     List<Item> findByPriceLessThanOrderByPriceDesc(Integer price);
 
     //@Query-1. JPQL
-    @Query("select i from Item i where i.itemDetail like %:itemDetail% order by i.price desc")
+    @Query("select i from Item i where i.itemDetail like " +
+            "%:itemDetail% order by i.price desc")
     List<Item> findByItemDetail(@Param("itemDetail") String itemDetail);
 
     //@Query-2. nativeQuery
-    @Query(value="select * from item i where i.item_detail like %:itemDetail% order by i.price desc",
-            nativeQuery = true)
+    @Query(value="select * from item i where i.item_detail like " +
+            "%:itemDetail% order by i.price desc", nativeQuery = true)
     List<Item> findByItemDetailByNative(@Param("itemDetail") String itemDetail);
-
-
-
 
 
 }
