@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-public class Item {
+public class Item extends BaseEntity {
 
     @Id
     @Column(name="item_id")
@@ -37,8 +37,8 @@ public class Item {
     @Enumerated(EnumType.STRING)//constant
     private ItemSellStatus itemSellStatus; //상품 재고현황(판매 상태)
 
-    private LocalDateTime regTime; //Time of item registration
-
-    private LocalDateTime updateTime; //Time of item update
+//    private LocalDateTime regTime; //Time of item registration, BaseEntity 상속 - 삭제
+//
+//    private LocalDateTime updateTime; //Time of item update
 
 }
