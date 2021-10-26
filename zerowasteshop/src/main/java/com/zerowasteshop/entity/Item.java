@@ -2,6 +2,7 @@ package com.zerowasteshop.entity;
 
 import com.zerowasteshop.constant.ItemSellStatus;
 import com.zerowasteshop.dto.ItemFormDto;
+import com.zerowasteshop.exception.OutOfStockException;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -46,4 +47,21 @@ public class Item extends BaseEntity {
         this.itemSellStatus = itemFormDto.getItemSellStatus();
     }
 
+    public void removeStock(int stockNumber){
+        int restStock = this.stockNumber - stockNumber;
+        if(restStock<0) {
+            throw new OutOfStockException("상품의 재고가 부족합니다. (현재 재고 수량: " + this.stockNumber + ")");
+            }
+            this.stockNumber = restStock;
+        }
+    //취소 시 상품 재고 증가 시키는 메소드   
+    public void addStock(int stockNumber){
+        this.stockNumber += stockNumber;
+    }
+
+
+
+
 }
+
+
