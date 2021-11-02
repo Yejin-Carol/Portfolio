@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>Welcome :)</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="/css/stylesheet.css">
     <link th:href="@{/css/layout1.css}" rel="stylesheet">
@@ -23,7 +22,6 @@
     <div th:replace="fragments/header::header"></div>
 
     <div layout:fragment="content">
-
     </div>
 
     <div th:replace="fragments/footer::footer"></div>

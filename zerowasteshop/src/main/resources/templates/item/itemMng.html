@@ -39,7 +39,10 @@
 </th:block>
 
 <div layout:fragment="content">
-
+    <br>
+    <p class="h2">
+        상품 관리
+    </p>
     <form th:action="@{'/admin/items/' + ${items.number}}" role="form" method="get" th:object="${items}">
         <table class="table">
             <thead>
@@ -107,6 +110,7 @@
                 <option value="createdBy">등록자</option>
             </select>
             <input th:field="*{searchQuery}" type="text" class="form-control" placeholder="검색어를 입력해주세요">
+
             <button id="searchBtn" type="submit" class="btn btn-primary">검색</button>
         </div>
     </form>

@@ -10,6 +10,8 @@
             color: #bd2130;
         }
     </style>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/css/bootstrap.min.css}" href="bootstrap.min.css" rel="stylesheet">
 </th:block>
 
 <!-- 사용자 스크립트 추가 -->
@@ -27,6 +29,9 @@
 </th:block>
 
 <div layout:fragment="content">
+    <div class="bg-light p-5 rounded">
+        <h1>회원가입</h1>
+    </div>
 
     <form action="/members/new" role="form" method="post"  th:object="${memberFormDto}">
         <div class="form-group">

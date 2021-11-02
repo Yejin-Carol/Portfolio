@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <div class="footer" th:fragment="footer">
-    <footer class="page-footer font-small cyan darken-3">
-        <div class="footer-copyright text-center py-3">
-            @2021 Zero Waste Shopping Mall
+    <footer class="bg-dark p-3" th:fragment="footer">
+        <div class="d-flex justify-content-center " style="color: white;">
+            copyright &copy; <script>document.write(new Date().getFullYear());</script>,
+            Zero Waste Shopping Mall by <a th:href="@{https://github.com/Yejin-Carol/portfolio}">&nbsp; Carol</a>
         </div>
+        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+                th:src="@{/js/bootstrap.bundle.min.js}">
+        </script>
     </footer>
 </div>
 </html>
