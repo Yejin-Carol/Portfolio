@@ -28,9 +28,9 @@ public class ItemService {
     private final ItemImgService itemImgService;
     private final ItemImgRepository itemImgRepository;
 
+    //상품 등록
     public Long saveItem(ItemFormDto itemFormDto, List<MultipartFile> itemImgFileList) throws Exception {
-
-        //상품 등록
+        
         Item item = itemFormDto.createItem();
         itemRepository.save(item);
 
@@ -49,7 +49,7 @@ public class ItemService {
 
         return item.getId();
     }
-
+    
     @Transactional(readOnly = true)
     public ItemFormDto getItemDtl(Long itemId){
         List<ItemImg> itemImgList = itemImgRepository.findByItemIdOrderByIdAsc(itemId);
@@ -65,15 +65,15 @@ public class ItemService {
         itemFormDto.setItemImgDtoList(itemImgDtoList);
         return itemFormDto;
     }
-
+    //상품 수정
     public Long updateItem(ItemFormDto itemFormDto, List<MultipartFile> itemImgFileList) throws Exception{
-        //상품 수정
+        
         Item item = itemRepository.findById(itemFormDto.getId())
                 .orElseThrow(EntityNotFoundException::new);
         item.updateItem(itemFormDto);
         List<Long> itemImgIds = itemFormDto.getItemImgIds();
 
-        //이미지 등록
+        //이미지 수정
         for(int i=0;i<itemImgFileList.size();i++){
             itemImgService.updateItemImg(itemImgIds.get(i),
                     itemImgFileList.get(i));
@@ -82,14 +82,18 @@ public class ItemService {
         return item.getId();
     }
 
+    //메인 페이지 보여줄 상품 데이터 조회
+    @Transactional(readOnly = true)
+    public Page<MainItemDto> getMainItemPage(ItemSearchDto itemSearchDto, Pageable pageable){
+        return itemRepository.getMainItemPage(itemSearchDto, pageable);
+    }
+
+    //관리자 상품관리 페이지 보여줄 상품 데이터 조회
     @Transactional(readOnly = true)
     public Page<Item> getAdminItemPage(ItemSearchDto itemSearchDto, Pageable pageable){
         return itemRepository.getAdminItemPage(itemSearchDto, pageable);
     }
 
-    @Transactional(readOnly = true)
-    public Page<MainItemDto> getMainItemPage(ItemSearchDto itemSearchDto, Pageable pageable){
-        return itemRepository.getMainItemPage(itemSearchDto, pageable);
-    }
+
 
 }
