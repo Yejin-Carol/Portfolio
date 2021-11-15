@@ -1,4 +1,4 @@
-# :open_file_folder: Zero Waste Shopping Mall
+# :shopping_cart: Zero Waste Shopping Mall :shopping_cart:
 
 ### Spring boot로 구현한 제로웨이스트 쇼핑몰
 ### [Demo 영상](https://drive.google.com/file/d/1X87e8Imd2t58-8d0RaVAg_IdjYCTVi9V/view?usp=sharing) 보기 click</br>
@@ -78,13 +78,18 @@
   
 ### 4.5 장바구니 (cart)
 
+<details>
+<summary><b>상세 설명 보기</b></summary>
+
   - 장바구니 상품 담기, 주문, 삭제 기능
   - Cart/CartItems -> Cart/CartItemRepository -> CartService -> CartController
   - CartService, 장바구니 이미 존재 여부 확인 후 있으면 수량 증가. 없으면 CartItem 객체 생성-> [코드 확인📑](https://github.com/Yejin-Carol/portfolio/blob/a5c12bb2c438c1f754def601d4118fef1aa6d3e4/zerowasteshop/src/main/java/com/zerowasteshop/service/CartService.java#L48)
   - CartController, 장바구니 최소 수량 1개 이상 되도록 설정
   - 장바구니 수량 변경시 AJAX PATCH TYPE으로 설정 ->[코드 확인📑](https://github.com/Yejin-Carol/portfolio/blob/a5c12bb2c438c1f754def601d4118fef1aa6d3e4/zerowasteshop/src/main/resources/templates/cart/cartList.html#L60)
 
-   <div markdown="1">
+<div markdown="1">
+</details>  
+  </br>
 
 ## 5. Troubleshooting
 
