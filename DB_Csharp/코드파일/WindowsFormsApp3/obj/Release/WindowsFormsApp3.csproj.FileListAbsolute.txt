@@ -1,0 +1,11 @@
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Release\TeamProject.exe.config
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Release\TeamProject.exe
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Release\TeamProject.pdb
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Release\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Form1.resources
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\TeamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\TeamProject.exe
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Release\TeamProject.pdb

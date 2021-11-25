@@ -1,0 +1,48 @@
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\KB\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\KB\Desktop\DB 연동 실습\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\TeamProject.exe.config
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\TeamProject.exe
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\TeamProject.pdb
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\TeamProject.Properties.Resources.resources
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\TeamProject.exe
+C:\Users\KB\Desktop\팀프로젝트\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\TeamProject.pdb
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\bin\Debug\TeamProject.exe.config
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\bin\Debug\TeamProject.exe
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\bin\Debug\TeamProject.pdb
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\bin\Debug\Oracle.DataAccess.dll
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\TeamProject.Properties.Resources.resources
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\TeamProject.exe
+C:\Users\KB\Documents\GitHub\OracleTeamProject\코드파일\WindowsFormsApp3\obj\Debug\TeamProject.pdb
