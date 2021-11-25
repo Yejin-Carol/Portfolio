@@ -11,63 +11,74 @@
 
 </br>
 
-## :pushpin: Projects
+## Projects
 
 ### 1. [Zero Waste Shopping Mall](https://github.com/Yejin-Carol/portfolio/tree/main/zerowasteshop)
 
 > Spring boot로 구현한 제로웨이스트 쇼핑몰 (개인 프로젝트)  
-> 개발 기간: 2021년 10월 16일 ~ 11월 14일
+> 개발 기간: 2021.10.16 ~ 11.14
 >
 > 기술 스택:  
 > Java 11 / Spring Boot / Maven / Spring Data JPA / QueryDSL  
 > H2 / MySQL / Spring Security / Thymleaf / Bootstrap
 >
-> [프로젝트 상세 설명](https://github.com/Yejin-Carol/portfolio/tree/main/zerowasteshop) 참고
+> [프로젝트 상세 보기](https://github.com/Yejin-Carol/portfolio/tree/main/zerowasteshop) 참고
 
 ---
 
-### 2. [두 번째 프로젝트]()
+### 2. [Beach Clean Up BBS](https://github.com/Yejin-Carol/portfolio/tree/main/Beachclean_BBS)
 
-> 두 번째 프로젝트 간략 소개 (팀 프로젝트)  
-> 개발 기간: 2020.7.18 ~ 2020.11.5
+> JSP로 만든 게시판 프로젝트 (개인 프로젝트)  
+> 개발 기간: 2021.9.8 ~ 9.21
 >
 > 기술 스택:  
 > Java 8 / JSP / Eclipse  
 > MySQL / Google Font / Bootstrap
 >
-> [프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+> [프로젝트 상세 보기](https://github.com/Yejin-Carol/portfolio/tree/main/Beachclean_BBS) 참고
 
 ---
 
-### 3. [세 번째 프로젝트]()
+### 3. [현 국내 영화 산업 축소 원인 분석 및 시각화](https://github.com/bbeuro132/Python-Team-Project)
 
-> 세 번째 프로젝트 간략 소개 (팀 프로젝트)  
-> 개발 기간: 2018.1.18 ~ 2018.4.5
+> Python으로 국내 영화 산업 축소에 따른 원인 분석 및 관련 인사이트(insights) 제공 (팀 프로젝트)  
+> 개발 기간: 2021.4.15 ~ 4.23
 >
 > 기술 스택:  
-> Java 8 / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
-> H2 / MySQL / Spring Security / Jsoup / Vue.js / Element U
+> Python (Matplotlib - Visualization)
 >
-> [프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+> [프로젝트 상세 보기](https://github.com/bbeuro132/Python-Team-Project) 참고
 
-### 4. [세 번째 프로젝트]()
+---
 
-> 세 번째 프로젝트 간략 소개 (팀 프로젝트)  
-> 개발 기간: 2018.1.18 ~ 2018.4.5
+### 4. [학생 성적 조회](https://github.com/Yejin-Carol/portfolio/tree/main/DB_Csharp)
+
+> C#와 Oracle DB 연결 (팀 프로젝트)  
+> 개발 기간: 2021.5.27 ~ 6.4
 >
 > 기술 스택:  
-> Java 8 / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
-> H2 / MySQL / Spring Security / Jsoup / Vue.js / Element U
+> C# - Visual Studio, Oracle DB
+> [프로젝트 상세 보기](https://github.com/Yejin-Carol/portfolio/tree/main/DB_Csharp)
+
+---
+
+### 5. [해커톤 아이디어](https://github.com/Yejin-Carol/portfolio/tree/main/hackton_idea)
+
+> 구형 스마트폰 및 배터리 업아이디어 기획 (팀 프로젝트)  
+> 개발 기간: 2021.6.13 ~ 7.12
 >
-> [프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+> 기술 스택: (아이디어 기획)
+> Python /Java/ Kotlin
+> Oracl DB
+>
+> [프로젝트 상세 보기](https://github.com/Yejin-Carol/portfolio/tree/main/hackton_idea) 참고
 
-### 5. [다섯 번째 프로젝트]()
+### 6. [Ongoing Projects](https://github.com/Yejin-Carol/DailyPractice)
 
-> 다섯 번째 프로젝트 간략 소개 (개인 프로젝트)  
-> 개발 기간: 2021.9.18 ~ ongoing
+> 자연어처리 (NLP), ML/DL 진행 중(개인 프로젝트)  
+> 개발 기간: 2021.4. ~ ongoing
 >
 > 기술 스택:  
-> Python / Spring Boot / Gradle / Spring Data JPA / QueryDSL  
-> H2 / MySQL / Spring Security / Jsoup / Vue.js / Element U
+> Python, Java, Javascript
 >
-> [프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+> [프로젝트 상세 설명](https://github.com/Yejin-Carol/DailyPracticey) 참고
